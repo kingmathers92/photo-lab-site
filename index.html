@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/app/scss/style.css"/>
+    <title>Photo Lab | Portfolio</title>
+</head>
+<body>
+    <header>
+        <div><a href="index.html" class="logo">Photo Lab</a></div>
+        <div class="toggle"></div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="htttps://facebook.com">
+                        <img src="images/facebook.png"
+                        target="_blank" alt="">
+                    </a>
+                    </li>
+                    <li>
+                        <a href="htttps://twitter.com">
+                        <img src="images/twitter.png"
+                        target="_blank" alt="">
+                    </a>
+                    </li>
+                    <li>
+                        <a href="htttps://instagram.com">
+                        <img src="images/instagram.png"
+                        target="_blank" alt="">
+                    </a>
+                    </li>
+                </ul>
+                <a href="mailto:you@email.com" class="email-icon">
+                    <img src="images/email.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <img class="home-img" src="/images/home_adobespark.png" alt="camera">
+        <div class="home-content">
+            <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  </p>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="company" placeholder="Company Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary">
+            </form>
+            <h1>We capture every special <br> moment.</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptate eveniet dolor alias eum ipsum provident dolorem
+                tempora molestiae est, corrupti vero itaque rerum, aspernatur
+                atque recusandae temporibus a aliquid. Atque facilis
+            </p>
+            <a href="contact.html" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+
+    <script src="app/js/script.js"></script>
+</body>
+</html>
