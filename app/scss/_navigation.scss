@@ -66,3 +66,16 @@
     bottom: 20px;
     transform: scale(0.5);
   }
+
+  @media (max-width: 1068px) {
+
+    .navigation ul li a {
+      font-size: 2rem;
+      color: $black;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+  }
